@@ -18,7 +18,7 @@ $ npm install -g excute
 # see https://glot.io/account/token
 $ excute -t API_TOKEN
 
-# run a js code
+# run js code
 $ excute try.js
 
 # run swift code
