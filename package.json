@@ -1,6 +1,6 @@
 {
   "name": "excute",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Execute any code and get result on your machine.",
   "license": "MIT",
   "repository": "egoist/excute",
