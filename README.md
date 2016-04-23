@@ -2,7 +2,7 @@
 
 > Execute any code and get result on your machine.
 
-![preview](http://ww4.sinaimg.cn/large/a15b4afegw1f3744cxkffj21540ta7e6.jpg)
+![preview](https://ooo.0o0.ooo/2016/04/23/571bb04c609b5.png)
 
 ## Install
 
@@ -26,10 +26,32 @@ $ excute try.swift -l swift
 
 # run rust code
 $ excute try.rs -l rust
+
+# execute a string
+$ excute -s "echo $PATH" -l bash
 ```
 
 For API token, please visit: https://glot.io/account/token<br>
 For all supported languages, please visit: https://run.glot.io/languages
+
+## Help
+
+```bash
+$ excute -h
+
+  Execute any code and get result on your machine.
+
+  Usage:
+    excute <file> -l [language]
+
+  Options:
+    -s/--string:        Execute a string instead of a file
+    -t/--token:         Set access token, see https://glot.io/account/token
+    -l/--language:      Run in specific language, javascript by default
+    -p/--pretty:        Pretty print result in a box
+    -v/--version:       Print version
+    -h/--help:          Print help (You are here!)
+```
 
 ## License
 
