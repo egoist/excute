@@ -22,7 +22,7 @@ const cli = meow(`
     h: 'help',
     t: 'token',
     s: 'string',
-    p: pretty
+    p: 'pretty'
   },
   string: ['string', 'token', 'language']
 })
